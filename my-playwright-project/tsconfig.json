@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "types": ["node"], // Add this line to include Node.js type definitions
+    "outDir": "./dist"
+  },
+  "include": [
+    "pages/**/*.ts",
+    "tests/**/*.ts",
+    "utils/**/*.ts"
+  ]
+}
